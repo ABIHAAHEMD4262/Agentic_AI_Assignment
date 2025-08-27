@@ -26,13 +26,17 @@ Test with both math and weather queries.
 
 
 Example interaction:
-```
+```bash
+Welcome to the Weather Info Agent and Math Agent!
+Ask me about the weather in any city and addition questions. Type 'exit' or 'quit'.
+
 ❓ You: What is the weather of Karachi and what is 2 + 2? 
 Weather function fired---->
 Add Function Called ----->
 🤖 Bot:  The current weather in Karachi is 34°C with clear skies. Also, 2 + 2 equals 4.
 ❓ You: exit
 👋 Goodbye!
+
 
 
 

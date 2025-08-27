@@ -34,9 +34,11 @@ The AI response is appended to history and displayed in the Chainlit UI.
 
 🔄 Flow Diagram
 flowchart TD
+
     A[👤 User Message] --> B[💬 Chainlit UI]
     B --> C[📜 Store Chat History]
     C --> D[🧠 Runner.run_sync(math_agent, context_prompt)]
     D --> E[⚡ Agent Generates Response]
     E --> F[📜 Save Response in History]
     F --> G[💬 Display Response in Chainlit UI]
+
